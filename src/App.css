@@ -1,0 +1,91 @@
+ .contenedor{
+  display: flex;
+  width: 70rem;
+  border-radius: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: solid 2px blue;
+  background-color: black;
+
+  
+}
+button {
+  display: inline-block;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+  text-decoration: underline;
+}
+.foto{
+  display: flex;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  
+}
+#perfil{
+  display: inline-block;
+  width: 10rem;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  margin: 10px;
+  border: solid 2px blue;
+  border-radius: 100%;
+  background-color: gray;
+}
+#barra1{
+  width: 20rem;
+  background-color: white;
+  font-size: 10px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 2px black;
+  border-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.encabezado{
+  width: 49rem;
+  background-color: black;
+  color: white;
+  padding: 1px;
+  margin: 10px 0px 0px 11px;
+  text-align: center;
+  
+}
+
+
+#barra2{
+  display: flex;
+  flex-direction: column;
+  width: 49.5rem;
+  background-color :black;
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  margin: 10px ;
+  border: solid 2px blue;
+  border-radius: 15px;
+} 
+
+
+
+button {
+  width: max-content;
+  color: blue;
+  border-radius: 100%;
+  font-size: large;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+  width: max-content;
+  background-color:grey;
+  color: white;
+}
