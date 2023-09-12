@@ -126,6 +126,7 @@ function App() {
               <input type="text" onChange={(e)=>{setAgregarEd((e.target.value))}}/>
               <button onClick={addEd}>+</button>
               
+              
             </>
           ) : <></>}
         
