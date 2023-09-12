@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  15vh;
+    background: tomato;
+    color: white;
+}
+nav > ul {
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 2rem
+
+}
